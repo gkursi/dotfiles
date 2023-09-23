@@ -1,2 +1,2 @@
 # dotfiles
-My arch/hyprland/waybar .config dir
+My arch linux backup
