@@ -1,0 +1,7 @@
+:root {
+    --border-col: #004f2d;
+}
+
+.nav-border-1 {
+    border: 1px solid var(--border-col);
+}

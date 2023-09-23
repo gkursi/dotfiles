@@ -1,0 +1,12 @@
+2023-09-22 18:00:31.896 [info] Extension host with pid 9643 started
+2023-09-22 18:00:31.896 [info] Skipping acquiring lock for /home/qweru/.config/Code - OSS/User/workspaceStorage/3ccbb6044b5565b71f696167dad8c05c.
+2023-09-22 18:00:32.020 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-09-22 18:00:32.157 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-09-22 18:00:32.239 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-09-22 18:00:32.270 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-09-22 18:00:32.310 [info] Eager extensions activated
+2023-09-22 18:00:32.334 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-09-22 18:00:32.338 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-09-22 18:00:32.346 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2023-09-22 18:00:32.354 [info] ExtensionService#_doActivateExtension sainnhe.everforest, startup: false, activationEvent: 'onStartupFinished'
+2023-09-22 18:04:03.531 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:scss'

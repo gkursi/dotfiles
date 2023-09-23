@@ -1,0 +1,6 @@
+2023-09-23 06:28:28.404 [info] Extension host with pid 782458 started
+2023-09-23 06:28:28.404 [info] Skipping acquiring lock for /home/qweru/.config/Code - OSS/User/workspaceStorage/7c84d26876d4a811961c6bc6c67f7f44.
+2023-09-23 06:28:28.546 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-09-23 06:28:28.558 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2023-09-23 06:28:28.645 [info] Extension host terminating: renderer closed the MessagePort
+2023-09-23 06:28:28.647 [info] Extension host with pid 782458 exiting with code 0

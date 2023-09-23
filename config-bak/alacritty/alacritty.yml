@@ -1,0 +1,10 @@
+window:
+  opacity: 0.5
+  padding:
+    x: 10
+    y: 10
+shell:
+  program: /bin/zsh
+  args:
+    - -c
+    - neofetch && exec zsh

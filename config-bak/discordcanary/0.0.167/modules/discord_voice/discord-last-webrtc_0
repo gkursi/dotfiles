@@ -1,0 +1,541 @@
+[2023-09-22 19:15:33.191] [14832] (engine.cpp:310): Created native Engine, time: Fri Sep 22 19:15:33 2023 UTC, logPath: /home/qweru/.config/discordcanary/0.0.167/modules/discord_voice/, logLevel: 2
+[2023-09-22 19:15:33.193] [14832] (audio_processing_impl.cc:295): Injected APM submodules:
+Echo control factory: 0
+Echo detector: 0
+Capture analyzer: 0
+Capture post processor: 0
+Render pre processor: 0
+[2023-09-22 19:15:33.193] [14832] (audio_processing_impl.cc:304): Denormal disabler: supported
+[2023-09-22 19:15:33.193] [14832] (audio_processing_impl.cc:511): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 0, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, dry_run: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, vad_reset_period_ms: 1500, adjacent_speech_frames_threshold: 12, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50}}
+[2023-09-22 19:15:33.193] [14832] (audio_device_buffer.cc:66): AudioDeviceBuffer::ctor
+[2023-09-22 19:15:33.193] [14832] (audio_device_impl.cc:143): current platform is Linux
+[2023-09-22 19:15:33.193] [14832] (audio_device_impl.cc:162): CreatePlatformSpecificObjects
+[2023-09-22 19:15:33.193] [14832] (audio_device_impl.cc:991): PlatformAudioLayer
+[2023-09-22 19:15:33.193] [14832] (audio_device_impl.cc:298): PulseAudio support is enabled.
+[2023-09-22 19:15:33.193] [14832] (audio_device_impl.cc:303): Linux PulseAudio APIs will be utilized
+[2023-09-22 19:15:33.193] [14832] (audio_device_impl.cc:344): AttachAudioBuffer
+[2023-09-22 19:15:33.193] [14832] (audio_device_buffer.cc:183): SetRecordingSampleRate(0)
+[2023-09-22 19:15:33.193] [14832] (audio_device_buffer.cc:189): SetPlayoutSampleRate(0)
+[2023-09-22 19:15:33.193] [14832] (audio_device_buffer.cc:203): SetRecordingChannels(0)
+[2023-09-22 19:15:33.193] [14832] (audio_device_buffer.cc:209): SetPlayoutChannels(0)
+[2023-09-22 19:15:33.193] [14832] (audio_device_impl.cc:354): ActiveAudioLayer
+[2023-09-22 19:15:33.193] [14832] (audio_device_buffer.cc:66): AudioDeviceBuffer::ctor
+[2023-09-22 19:15:33.193] [14832] (audio_device_impl.cc:143): current platform is Linux
+[2023-09-22 19:15:33.193] [14832] (audio_device_impl.cc:162): CreatePlatformSpecificObjects
+[2023-09-22 19:15:33.193] [14832] (audio_device_impl.cc:991): PlatformAudioLayer
+[2023-09-22 19:15:33.193] [14832] (audio_device_impl.cc:298): PulseAudio support is enabled.
+[2023-09-22 19:15:33.193] [14832] (audio_device_impl.cc:303): Linux PulseAudio APIs will be utilized
+[2023-09-22 19:15:33.193] [14832] (audio_device_impl.cc:344): AttachAudioBuffer
+[2023-09-22 19:15:33.193] [14832] (audio_device_buffer.cc:183): SetRecordingSampleRate(0)
+[2023-09-22 19:15:33.193] [14832] (audio_device_buffer.cc:189): SetPlayoutSampleRate(0)
+[2023-09-22 19:15:33.193] [14832] (audio_device_buffer.cc:203): SetRecordingChannels(0)
+[2023-09-22 19:15:33.193] [14832] (audio_device_buffer.cc:209): SetPlayoutChannels(0)
+[2023-09-22 19:15:33.193] [14832] (audio_processing_impl.cc:295): Injected APM submodules:
+Echo control factory: 0
+Echo detector: 0
+Capture analyzer: 0
+Capture post processor: 0
+Render pre processor: 0
+[2023-09-22 19:15:33.193] [14832] (audio_processing_impl.cc:304): Denormal disabler: supported
+[2023-09-22 19:15:33.193] [14832] (audio_engine.cpp:527): Creating audio engine: standard
+[2023-09-22 19:15:33.193] [14832] (audio_device_impl.cc:364): Init
+[2023-09-22 19:15:33.198] [14832] (audio_device_impl.cc:364): Init
+[2023-09-22 19:15:33.199] [14832] (audio_coding.cpp:148): Using software Opus decoder
+[2023-09-22 19:15:33.199] [14832] (audio_coding.cpp:165): Using software Opus encoder
+[2023-09-22 19:15:33.199] [14832] (audio_device_impl.cc:895): RegisterAudioCallback
+[2023-09-22 19:15:33.199] [14832] (audio_device_impl.cc:547): SetMicrophoneVolume(100)
+[2023-09-22 19:15:33.199] [14832] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2023-09-22 19:15:33.199] [14832] (audio_device_impl.cc:895): RegisterAudioCallback
+[2023-09-22 19:15:33.199] [14832] (audio_engine.cpp:188): Setting audio input device: 'default'
+[2023-09-22 19:15:33.199] [14832] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2023-09-22 19:15:33.199] [14832] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2023-09-22 19:15:33.199] [14832] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2023-09-22 19:15:33.199] [14832] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2023-09-22 19:15:33.200] [14832] (audio_device_impl.cc:573): output: 0
+[2023-09-22 19:15:33.200] [14832] (audio_device_impl.cc:578): SetStereoRecording(0)
+[2023-09-22 19:15:33.200] [14832] (audio_device_buffer.cc:203): SetRecordingChannels(1)
+[2023-09-22 19:15:33.200] [14832] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2023-09-22 19:15:33.200] [14832] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2023-09-22 19:15:33.200] [14832] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2023-09-22 19:15:33.200] [14832] (audio_engine.cpp:205): Setting audio output device: 'default'
+[2023-09-22 19:15:33.200] [14832] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-09-22 19:15:33.200] [14832] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-09-22 19:15:33.200] [14832] (audio_device_impl.cc:619): output: 1
+[2023-09-22 19:15:33.200] [14832] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-09-22 19:15:33.200] [14832] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-09-22 19:15:33.200] [14832] (audio_device_impl.cc:911): BuiltInAECIsAvailable
+[2023-09-22 19:15:33.200] [14832] (audio_device_generic.cc:32): BuiltInAECIsAvailable: Not supported on this platform
+[2023-09-22 19:15:33.200] [14832] (audio_device_impl.cc:914): output: 0
+[2023-09-22 19:15:33.200] [14832] (audio_processing_impl.cc:511): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, dry_run: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, vad_reset_period_ms: 1500, adjacent_speech_frames_threshold: 12, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50}}
+[2023-09-22 19:15:33.201] [14832] (transparent_mode.cc:239): AEC3 Transparent Mode: Legacy
+[2023-09-22 19:15:33.201] [14832] (echo_canceller3.cc:793): AEC3 created with sample rate: 16000 Hz, num render channels: 1, num capture channels: 1
+[2023-09-22 19:15:33.201] [14832] (audio_processing_impl.cc:511): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, dry_run: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, vad_reset_period_ms: 1500, adjacent_speech_frames_threshold: 12, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50}}
+[2023-09-22 19:15:33.201] [14832] (clipping_predictor.cc:357): [agc] Clipping prediction disabled.
+[2023-09-22 19:15:33.201] [14832] (agc_manager_direct.cc:500): [agc] analog controller enabled: yes
+[2023-09-22 19:15:33.201] [14832] (agc_manager_direct.cc:503): [agc] Min mic level: 12 (overridden: no)
+[2023-09-22 19:15:33.201] [14832] (agc_manager_direct.cc:507): [agc] Startup min volume: 0
+[2023-09-22 19:15:33.201] [14832] (captured_audio_processor.cpp:119): SetNoiseCancellation: 0
+[2023-09-22 19:15:33.201] [14832] (audio_processing_impl.cc:511): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 1, level: High }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, dry_run: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, vad_reset_period_ms: 1500, adjacent_speech_frames_threshold: 12, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50}}
+[2023-09-22 19:15:33.201] [14832] (field_trial.cc:141): Setting field trial string:WebRTC-Audio-NetEqDecisionLogicConfig/reinit_after_expands:100/
+[2023-09-22 19:15:33.385] [14721] (discord.cpp:701): JS console: ["Unsupported Locale","en-GB"]
+[2023-09-22 19:15:33.385] [14721] (discord.cpp:701): JS console: ["Unsupported Locale","en"]
+[2023-09-22 19:15:33.393] [14721] (discord.cpp:701): JS console: ["%c[DatabaseManager]","active user changed (now: 969086944992710658, was: null, was: undefined)"]
+[2023-09-22 19:15:33.398] [14832] (audio_engine.cpp:188): Setting audio input device: 'default'
+[2023-09-22 19:15:33.399] [14832] (audio_device_impl.cc:826): RecordingIsInitialized
+[2023-09-22 19:15:33.399] [14832] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2023-09-22 19:15:33.399] [14832] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2023-09-22 19:15:33.399] [14832] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2023-09-22 19:15:33.399] [14832] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2023-09-22 19:15:33.399] [14832] (audio_device_impl.cc:573): output: 0
+[2023-09-22 19:15:33.399] [14832] (audio_device_impl.cc:578): SetStereoRecording(0)
+[2023-09-22 19:15:33.399] [14832] (audio_device_buffer.cc:203): SetRecordingChannels(1)
+[2023-09-22 19:15:33.399] [14832] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2023-09-22 19:15:33.399] [14832] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2023-09-22 19:15:33.399] [14832] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2023-09-22 19:15:33.399] [14832] (audio_engine.cpp:205): Setting audio output device: 'default'
+[2023-09-22 19:15:33.399] [14832] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2023-09-22 19:15:33.399] [14832] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-09-22 19:15:33.400] [14832] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-09-22 19:15:33.400] [14832] (audio_device_impl.cc:619): output: 1
+[2023-09-22 19:15:33.400] [14832] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-09-22 19:15:33.400] [14832] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-09-22 19:15:33.400] [14832] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2023-09-22 19:15:33.400] [14832] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2023-09-22 19:15:33.400] [14832] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2023-09-22 19:15:33.407] [14721] (discord.cpp:701): JS console: ["%c[default]","[BUILD INFO] Release Channel: canary, Build Number: 230558, Version Hash: bf653a6469fcf2cd3251e4484208243dfd7b71e3"]
+[2023-09-22 19:15:33.563] [14721] (discord.cpp:701): JS console: ["%c[CloudSyncUtils]","CloudSync is not supported on this platform"]
+[2023-09-22 19:15:33.620] [14721] (discord.cpp:701): JS console: ["%c[default]","[NATIVE INFO] host 0.0.167, modules: discord_desktop_core: 22, discord_erlpack: 22, discord_spellcheck: 22, discord_utils: 22, discord_voice: 23, discord_krisp: 1, discord_game_utils: 22, discord_rpc: 22, build: null"]
+[2023-09-22 19:15:33.640] [14832] (audio_engine.cpp:188): Setting audio input device: 'default'
+[2023-09-22 19:15:33.640] [14832] (audio_device_impl.cc:826): RecordingIsInitialized
+[2023-09-22 19:15:33.640] [14832] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2023-09-22 19:15:33.640] [14832] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2023-09-22 19:15:33.641] [14832] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2023-09-22 19:15:33.641] [14832] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2023-09-22 19:15:33.641] [14832] (audio_device_impl.cc:573): output: 0
+[2023-09-22 19:15:33.641] [14832] (audio_device_impl.cc:578): SetStereoRecording(0)
+[2023-09-22 19:15:33.641] [14832] (audio_device_buffer.cc:203): SetRecordingChannels(1)
+[2023-09-22 19:15:33.641] [14832] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2023-09-22 19:15:33.641] [14832] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2023-09-22 19:15:33.641] [14832] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2023-09-22 19:15:33.641] [14832] (audio_engine.cpp:205): Setting audio output device: 'default'
+[2023-09-22 19:15:33.641] [14832] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2023-09-22 19:15:33.641] [14832] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-09-22 19:15:33.641] [14832] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-09-22 19:15:33.641] [14832] (audio_device_impl.cc:619): output: 1
+[2023-09-22 19:15:33.641] [14832] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-09-22 19:15:33.641] [14832] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-09-22 19:15:33.655] [14721] (discord.cpp:701): JS console: ["Initializing krisp module"]
+[2023-09-22 19:15:34.039] [14721] (discord.cpp:701): JS console: ["%c[Spellchecker]","sh is not a valid locale."]
+[2023-09-22 19:15:34.133] [14721] (discord.cpp:701): JS console: ["%c[Spellchecker]","Switching to en-GB","(available)"]
+[2023-09-22 19:15:34.590] [14721] (discord.cpp:701): JS console: ["Deprecation warning: value provided is not in a recognized RFC2822 or ISO format. moment construction falls back to js Date(), which is not reliable across all browsers and versions. Non RFC2822/ISO date formats are discouraged and will be removed in an upcoming major release. Please refer to http://momentjs.com/guides/#/warnings/js-date/ for more info.\nArguments: \n[0] _isAMomentObject: true, _isUTC: false, _useUTC: false, _l: undefined, _i: 5/13/2022 10:00 -0800, _f: undefined, _strict: undefined, _locale: [object Object]\nError\n    at Function.createFromInputFallback (https://canary.discord.com/assets/a24790a9587406c78c49.js:1470:330)\n    at Bn (https://canary.discord.com/assets/a24790a9587406c78c49.js:1496:696)\n    at Wn (https://canary.discord.com/assets/a24790a9587406c78c49.js:1499:356)\n    at Zn (https://canary.discord.com/assets/a24790a9587406c78c49.js:1499:199)\n    at Yn (https://canary.discord.com/assets/a24790a9587406c78c49.js:1498:886)\n    at Kn (https://canary.discord.com/assets/a24790a9587406c78c49.js:1499:697)\n    at zn (https://canary.discord.com/assets/a24790a9587406c78c49.js:1499:731)\n    at i (https://canary.discord.com/assets/a24790a9587406c78c49.js:1466:961)\n    at 408481 (https://canary.discord.com/assets/7a4706c5ea1c4a60c240.js:21:346)\n    at l (https://canary.discord.com/assets/3b566c964e06ff3ee284.js:1:154)\n    at 558820 (https://canary.discord.com/assets/7a4706c5ea1c4a60c240.js:14:338)\n    at l (https://canary.discord.com/assets/3b566c964e06ff3ee284.js:1:154)\n    at 308739 (https://canary.discord.com/assets/7a4706c5ea1c4a60c240.js:2:331)\n    at l (https://canary.discord.com/assets/3b566c964e06ff3ee284.js:1:154)\n    at 173242 (https://canary.discord.com/assets/eacf8e7fd886b3170605.js:361:101)\n    at l (https://canary.discord.com/assets/3b566c964e06ff3ee284.js:1:154)\n    at 93537 (https://canary.discord.com/assets/9da3c19790bba88b4472.js:35:421)\n    at Function.l (https://canary.discord.com/assets/3b566c964e06ff3ee284.js:1:154)"]
+[2023-09-22 19:15:34.648] [14721] (discord.cpp:701): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-09-22 19:15:35.308] [14721] (discord.cpp:701): JS console: ["%c[ConnectionStore]","Socket is reconnecting because of starting new session"]
+[2023-09-22 19:15:35.308] [14721] (discord.cpp:701): JS console: ["%c[GatewaySocket]",".connect() called, new state is WILL_RECONNECT"]
+[2023-09-22 19:15:35.308] [14721] (discord.cpp:701): JS console: ["%c[GatewaySocket]","Setting connection state to WILL_RECONNECT"]
+[2023-09-22 19:15:35.308] [14721] (discord.cpp:701): JS console: ["%c[GatewaySocket]","Setting connection state to CONNECTING"]
+[2023-09-22 19:15:35.309] [14721] (discord.cpp:701): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-09-22 19:15:35.309] [14721] (discord.cpp:701): JS console: ["%c[GatewaySocket]","newOrTakeoverWebSocket()"]
+[2023-09-22 19:15:35.309] [14721] (discord.cpp:701): JS console: ["%c[GatewaySocket]","[FAST CONNECT] successfully took over websocket, state:","[object Object]"]
+[2023-09-22 19:15:35.309] [14721] (discord.cpp:701): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 0 ms"]
+[2023-09-22 19:15:35.309] [14721] (discord.cpp:701): JS console: ["%c[ConnectionStore]","handleIdentify called","[object Object]"]
+[2023-09-22 19:15:35.310] [14721] (discord.cpp:701): JS console: ["%c[GatewaySocket]","Setting connection state to IDENTIFYING"]
+[2023-09-22 19:15:35.310] [14721] (discord.cpp:701): JS console: ["%c[GatewaySocket]","[IDENTIFY]"]
+[2023-09-22 19:15:35.319] [14721] (discord.cpp:701): JS console: ["%c[GatewaySocket]","[HELLO] via \ngateway-prd-us-east1-b-9lq2: 0, heartbeat interval: 41250, took 9 ms"]
+[2023-09-22 19:15:35.346] [14721] (discord.cpp:701): JS console: ["%c[RPCServer:WSS]","Starting on 6463"]
+[2023-09-22 19:15:35.391] [14721] (discord.cpp:701): JS console: ["%c[RPCServer:IPC]","Starting on /run/user/1000/discord-ipc-0"]
+[2023-09-22 19:15:36.205] [14721] (discord.cpp:701): JS console: ["%c[GatewaySocket]","[READY] took 895ms, as fc4d5fb8ffbe2535a6009f1b2f2db2fc via \ngateway-prd-us-east1-b-9lq2: 263.962\n|  id_created: 0.971\n|  session_lookup_time: 6.425\n|  session_lookup_finished: 0.017\n|  discord-sessions-prd-2-271: 240.581\n|  |  start_session: 200.588\n|  |  |  discord-api-58cbbb7c56-9xss2: 181.858\n|  |  |  |  get_user: 15.71\n|  |  |  |  get_guilds: 78.282\n|  |  |  |  user_settings_proto: 0.196\n|  |  |  |  relationships: 38.651\n|  |  |  |  friend_suggestion: 0.072\n|  |  |  |  connections: 0.255\n|  |  |  |  serialized_read_states: 0.011\n|  |  |  |  pending_payments: 0.002\n|  |  |  |  send_scheduled_deletion_message: 0.001\n|  |  |  |  sanitize_premium_perks: 0.002\n|  |  |  |  guild_join_requests: 0.001\n|  |  |  |  broadcaster_user_ids: 0.002\n|  |  |  |  user_guild_settings: 0.001\n|  |  |  |  serialized_private_channels: 4.765\n|  |  |  |  user_segments: 2.072\n|  |  |  |  game_invites: 0.003\n|  |  |  |  experiments: 19.204\n|  |  |  |  affine_user_ids: 0.017\n|  |  |  |  required_action: 0.002\n|  |  |  |  authorized_ip_coro: 0.002\n|  |  starting_guild_connect: 0.074\n|  |  presence_started: 0.39\n|  |  guilds_started: 1.163\n|  |  guilds_connect: 30.83\n|  |  presence_connect: 0.002\n|  |  connect_finished: 30.856\n|  |  build_ready: 6.149\n|  |  clean_ready: 0.003\n|  |  optimize_ready: 1.138\n|  |  split_ready: 0.217"]
+[2023-09-22 19:15:36.205] [14721] (discord.cpp:701): JS console: ["%c[GatewaySocket]","Setting connection state to SESSION_ESTABLISHED"]
+[2023-09-22 19:15:36.236] [14721] (discord.cpp:701): JS console: ["%c[Flux]","Dispatching CONNECTION_OPEN"]
+[2023-09-22 19:15:36.237] [14721] (discord.cpp:701): JS console: ["%c[AuthenticationStore]","handleConnectionOpen called","[object Object]"]
+[2023-09-22 19:15:36.238] [14721] (discord.cpp:701): JS console: ["%c[DatabaseManager]","removing database (user: 969086944992710658, database: undefined)"]
+[2023-09-22 19:15:36.238] [14721] (discord.cpp:701): JS console: ["%c[DatabaseManager]","added database (969086944992710658 → null)"]
+[2023-09-22 19:15:36.256] [14721] (discord.cpp:701): JS console: ["%c[NativeDispatchUtils]","Tried getting Dispatch instance before instantiated"]
+[2023-09-22 19:15:36.273] [14721] (discord.cpp:701): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-22 19:15:36.274] [14721] (discord.cpp:701): JS console: ["%c[Spotify]","Added account: 31526mfdf3dqll3cwog4d2wzf4de"]
+[2023-09-22 19:15:36.318] [14721] (discord.cpp:701): JS console: ["%c[GatewaySocket]","Updating resume url to wss://gateway-us-east1-b.discord.gg"]
+[2023-09-22 19:15:36.328] [14721] (discord.cpp:701): JS console: ["%c[GatewaySocket]","[READY_SUPPLEMENTAL] took 1019ms"]
+[2023-09-22 19:15:36.328] [14721] (discord.cpp:701): JS console: ["%c[GatewaySocket]","Setting connection state to SESSION_ESTABLISHED"]
+[2023-09-22 19:15:37.650] [14721] (discord.cpp:701): JS console: ["%c[Flux]","Slow dispatch on GAMES_DATABASE_UPDATE: 621.2000000000116ms"]
+[2023-09-22 19:15:37.654] [14721] (discord.cpp:701): JS console: ["%c[Spotify]","WS Connected"]
+[2023-09-22 19:15:37.667] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 19:15:37.835] [14721] (discord.cpp:701): JS console: ["%c[Spotify]","Profile updated for 31526mfdf3dqll3cwog4d2wzf4de: isPremium = true"]
+[2023-09-22 19:15:37.939] [14721] (discord.cpp:701): JS console: ["%c[Spotify]","Devices updated for 31526mfdf3dqll3cwog4d2wzf4de:","[object Object]"]
+[2023-09-22 19:15:38.818] [14832] (engine.cpp:755): Engine::SetClipBufferLength(0)
+[2023-09-22 19:15:46.721] [14721] (discord.cpp:701): JS console: ["%c[RTCLatencyTestManager]","RTC cached preferred region is frankfurt"]
+[2023-09-22 19:15:48.795] [14721] (discord.cpp:701): JS console: ["%c[FetchBlockedDomain]","Fetching blocked domain list"]
+[2023-09-22 19:15:48.800] [14721] (discord.cpp:701): JS console: ["%c[FetchBlockedDomain]","Server revision: 173, Client revision: 173"]
+[2023-09-22 19:15:52.669] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 19:15:57.711] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 19:16:01.383] [14721] (discord.cpp:701): JS console: ["%c[MessageActionCreators]","Fetching messages for 1109727891907948606 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2023-09-22 19:16:01.439] [14721] (discord.cpp:701): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/1108765458309587096/1109727891907948606"]
+[2023-09-22 19:16:01.794] [14721] (discord.cpp:701): JS console: ["%c[MessageActionCreators]","Fetched 1 messages for 1109727891907948606 isBefore:false isAfter:false"]
+[2023-09-22 19:16:12.828] [14721] (discord.cpp:701): JS console: ["%c[MessageActionCreators]","Fetching messages for 1142596941415456778 between undefined and undefined. jump={\"isHighlight\":false,\"jumpType\":\"ANIMATED\"}"]
+[2023-09-22 19:16:12.909] [14721] (discord.cpp:701): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/1108765458309587096/1142596941415456778"]
+[2023-09-22 19:16:13.109] [14721] (discord.cpp:701): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 1142596941415456778 isBefore:false isAfter:false"]
+[2023-09-22 19:16:22.698] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 19:16:42.731] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 19:16:47.743] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 19:17:32.823] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 19:17:37.836] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 19:18:52.847] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 19:18:57.857] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 19:19:02.874] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 19:22:09.119] [14721] (discord.cpp:701): JS console: ["%c[MessageActionCreators]","Fetching messages for 1109729530458947614 between undefined and undefined. jump={\"isHighlight\":false,\"jumpType\":\"ANIMATED\"}"]
+[2023-09-22 19:22:09.179] [14721] (discord.cpp:701): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/1108765458309587096/1109729530458947614"]
+[2023-09-22 19:22:09.453] [14721] (discord.cpp:701): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 1109729530458947614 isBefore:false isAfter:false"]
+[2023-09-22 19:23:06.510] [14721] (discord.cpp:701): JS console: ["%c[Spotify]","Updated account access token: 31526mfdf3dqll3cwog4d2wzf4de"]
+[2023-09-22 19:23:18.040] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 19:23:41.839] [14721] (discord.cpp:701): JS console: ["%c[discord_protos.discord_users.v1.FrecencyUserSettings]","Loading proto"]
+[2023-09-22 19:23:41.841] [14721] (discord.cpp:701): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-09-22 19:27:16.585] [14721] (discord.cpp:701): JS console: ["Unable to determine render window for element","[object HTMLDocument]"]
+[2023-09-22 19:27:18.073] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 19:27:23.077] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 19:27:28.080] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 19:27:33.085] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 19:27:38.089] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 19:27:43.086] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 19:27:53.089] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 19:27:58.092] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 19:28:03.088] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 19:29:58.236] [14721] (discord.cpp:701): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-09-22 19:31:02.427] [14721] (discord.cpp:701): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-09-22 19:31:27.450] [14721] (discord.cpp:701): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-09-22 19:31:33.147] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 19:31:38.154] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 19:31:43.173] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 19:31:48.182] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 19:31:53.184] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 19:31:58.191] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 19:32:03.200] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 19:32:08.208] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 19:32:13.220] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 19:32:18.207] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 19:32:38.234] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 19:32:43.246] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 19:32:58.271] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 19:33:03.287] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 19:33:13.315] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 19:33:23.323] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 19:33:28.331] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 19:33:33.336] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 19:33:58.377] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 19:34:03.378] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 19:35:13.394] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 19:35:18.404] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 19:35:28.413] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 19:35:33.420] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 19:36:33.449] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 19:36:34.144] [14721] (discord.cpp:701): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-09-22 19:36:38.460] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 19:37:03.153] [14721] (discord.cpp:701): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-09-22 19:39:10.807] [14721] (discord.cpp:701): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-09-22 19:39:59.730] [14721] (discord.cpp:701): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-09-22 19:40:42.369] [14721] (discord.cpp:701): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-09-22 19:42:53.564] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 19:42:58.561] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 19:43:03.566] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 19:43:18.582] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 19:48:35.324] [14721] (discord.cpp:701): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-09-22 19:49:43.937] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 19:49:48.941] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 19:49:53.938] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 19:49:58.938] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 19:52:59.731] [14721] (discord.cpp:701): JS console: ["%c[Spotify]","Devices updated for 31526mfdf3dqll3cwog4d2wzf4de:","[object Object]"]
+[2023-09-22 19:53:11.015] [14721] (discord.cpp:701): JS console: ["%c[Spotify]","Devices updated for 31526mfdf3dqll3cwog4d2wzf4de:","[object Object],[object Object]"]
+[2023-09-22 19:53:13.982] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 19:53:18.984] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 19:54:12.010] [14721] (discord.cpp:701): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-09-22 19:57:04.095] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 19:57:09.102] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 19:57:14.100] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 19:57:19.107] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 19:58:29.083] [14721] (discord.cpp:701): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-09-22 19:59:49.158] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 19:59:54.166] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:01:50.469] [14721] (discord.cpp:701): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-09-22 20:02:04.202] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:02:09.197] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:04:18.699] [14721] (discord.cpp:701): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-09-22 20:04:49.222] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:05:04.242] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:05:59.299] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:06:04.312] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:06:09.314] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:06:14.330] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:06:19.325] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:06:39.343] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:06:44.339] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:07:04.338] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:07:09.343] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:08:14.369] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:08:24.381] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:09:04.425] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:09:09.437] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:09:14.441] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:09:19.438] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:09:24.438] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:10:47.659] [14721] (discord.cpp:701): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-09-22 20:13:29.577] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:13:34.581] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:13:39.586] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:13:44.582] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:14:04.613] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:14:09.619] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:14:14.628] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:14:25.562] [14721] (discord.cpp:701): JS console: ["%c[ComponentDispatchUtils]","ComponentDispatch.subscribe: Attempting to add a duplicate listener","POPOUT_CLOSE"]
+[2023-09-22 20:14:27.093] [14721] (discord.cpp:701): JS console: ["%c[discord_protos.discord_users.v1.PreloadedUserSettings]","Updating status with delay 0"]
+[2023-09-22 20:14:27.113] [14721] (discord.cpp:701): JS console: ["%c[discord_protos.discord_users.v1.PreloadedUserSettings]","Scheduling save from markDirty"]
+[2023-09-22 20:14:27.150] [14721] (discord.cpp:701): JS console: ["%c[discord_protos.discord_users.v1.PreloadedUserSettings]","Persisting proto"]
+[2023-09-22 20:14:54.644] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:14:59.637] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:15:04.639] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:15:24.688] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:15:29.693] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:15:44.723] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:15:49.735] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:17:31.890] [14721] (discord.cpp:701): JS console: ["%c[MessageActionCreators]","Fetching messages for 1120997927586902016 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2023-09-22 20:17:32.233] [14721] (discord.cpp:701): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 1120997927586902016 isBefore:false isAfter:false"]
+[2023-09-22 20:17:59.959] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:18:04.957] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:22:15.207] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:22:20.223] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:22:25.217] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:22:50.239] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:22:55.247] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:23:15.269] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:23:20.274] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:23:35.277] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:23:40.277] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:24:02.231] [14721] (discord.cpp:701): JS console: ["%c[Spotify]","Updated account access token: 31526mfdf3dqll3cwog4d2wzf4de"]
+[2023-09-22 20:25:52.227] [14721] (discord.cpp:701): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-09-22 20:27:30.394] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:27:35.391] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:27:40.400] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:27:45.421] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:27:55.438] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:28:00.446] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:28:16.541] [14721] (discord.cpp:701): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/1108765458309587096/1109729530458947614"]
+[2023-09-22 20:28:20.460] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:28:22.869] [14721] (discord.cpp:701): JS console: ["%c[MessageActionCreators]","Fetching messages for 1109729575275081819 between undefined and undefined. jump={\"isHighlight\":false,\"jumpType\":\"ANIMATED\"}"]
+[2023-09-22 20:28:23.158] [14721] (discord.cpp:701): JS console: ["%c[MessageActionCreators]","Fetched 9 messages for 1109729575275081819 isBefore:false isAfter:false"]
+[2023-09-22 20:28:25.464] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:28:30.471] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:31:10.622] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:31:15.632] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:31:25.661] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:31:30.664] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:31:40.669] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:31:50.671] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:31:55.662] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:32:00.672] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:32:05.667] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:32:10.671] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:32:15.673] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:32:25.678] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:32:30.671] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:32:35.674] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:32:40.678] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:36:30.715] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:36:35.716] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:37:10.767] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:37:15.773] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:37:20.781] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:38:35.860] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:38:40.863] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:42:05.895] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:42:10.899] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:42:15.898] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:42:20.894] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:43:45.958] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:43:50.969] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:44:06.001] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:44:11.008] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:44:21.015] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:44:26.011] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:44:36.014] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:44:41.010] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:45:06.030] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:45:11.033] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:45:16.040] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:45:21.032] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:45:36.043] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:46:16.135] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:47:26.300] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:47:31.310] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:47:56.369] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:49:11.079] [14721] (discord.cpp:701): JS console: ["%c[CloudUpload.tsx]","Requesting upload url for upload232"]
+[2023-09-22 20:49:11.451] [14721] (discord.cpp:701): JS console: ["%c[CloudUpload.tsx]","Uploading upload232"]
+[2023-09-22 20:49:12.862] [14721] (discord.cpp:701): JS console: ["%c[CloudUploaderBase.tsx]","setUploadingTextForUI - total content: 369549 bytes and 1 attachments for Uploader234"]
+[2023-09-22 20:49:12.874] [14721] (discord.cpp:701): JS console: ["%c[CloudUpload.tsx]","Upload complete for upload232"]
+[2023-09-22 20:49:13.447] [14721] (discord.cpp:701): JS console: ["%c[UploaderBase.tsx]","_handleComplete for Uploader234"]
+[2023-09-22 20:50:21.527] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:50:26.527] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:50:28.684] [14721] (discord.cpp:701): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/1108765458309587096/1109729530458947614"]
+[2023-09-22 20:50:36.523] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:50:41.527] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:50:45.676] [14721] (discord.cpp:701): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-09-22 20:50:51.545] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:50:56.531] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:51:46.542] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:51:56.545] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:51:58.884] [14721] (discord.cpp:701): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-09-22 20:51:59.276] [14721] (discord.cpp:701): JS console: ["%c[MessageActionCreators]","Fetching messages for 1109729530458947614 between undefined and undefined. jump=undefined"]
+[2023-09-22 20:52:01.536] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:52:13.970] [14721] (discord.cpp:701): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-09-22 20:52:41.579] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:52:46.585] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:52:51.595] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:52:56.605] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:53:36.679] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:53:41.687] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:54:21.755] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:54:26.757] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:55:51.914] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:55:56.924] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:56:11.959] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:58:42.226] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:58:47.234] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:58:57.250] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:59:02.246] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:59:07.264] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:59:12.235] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:59:42.278] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:59:47.285] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 20:59:52.283] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:00:02.294] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:00:07.308] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:00:09.972] [14721] (discord.cpp:701): JS console: ["%c[GatewaySocket]","[RECONNECT] gateway requested I reconnect."]
+[2023-09-22 21:00:09.973] [14721] (discord.cpp:701): JS console: ["%c[GatewaySocket]","Setting connection state to WILL_RECONNECT"]
+[2023-09-22 21:00:09.974] [14721] (discord.cpp:701): JS console: ["%c[GatewaySocket]","Setting connection state to CONNECTING"]
+[2023-09-22 21:00:09.974] [14721] (discord.cpp:701): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-b.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-09-22 21:00:09.974] [14721] (discord.cpp:701): JS console: ["%c[GatewaySocket]","newOrTakeoverWebSocket()"]
+[2023-09-22 21:00:10.265] [14721] (discord.cpp:701): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-b.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 291 ms"]
+[2023-09-22 21:00:10.265] [14721] (discord.cpp:701): JS console: ["%c[GatewaySocket]","Setting connection state to RESUMING"]
+[2023-09-22 21:00:10.266] [14721] (discord.cpp:701): JS console: ["%c[GatewaySocket]","[RESUME] resuming session fc4d5fb8ffbe2535a6009f1b2f2db2fc, seq: 5694"]
+[2023-09-22 21:00:10.270] [14721] (discord.cpp:701): JS console: ["%c[GatewaySocket]","[HELLO] via \ngateway-prd-us-east1-b-hwfr: 0, heartbeat interval: 41250, took 295 ms"]
+[2023-09-22 21:00:10.421] [14721] (discord.cpp:701): JS console: ["%c[GatewaySocket]","[RESUMED] took 447ms, via \ngateway-prd-us-east1-b-hwfr: 0.566\n|  id_created: 0\n|  session_lookup_time: 0.264\n|  session_lookup_finished: 0.016\n|  discord-sessions-prd-2-271: 0.044, replayed 1 events, new seq: 5695"]
+[2023-09-22 21:00:10.422] [14721] (discord.cpp:701): JS console: ["%c[GatewaySocket]","Setting connection state to SESSION_ESTABLISHED"]
+[2023-09-22 21:00:10.458] [14721] (discord.cpp:701): JS console: ["%c[Flux]","Dispatching CONNECTION_RESUMED"]
+[2023-09-22 21:00:12.309] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:00:17.321] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:00:27.330] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:00:32.347] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:01:42.467] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:01:52.485] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:01:57.499] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:03:07.639] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:03:12.645] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:03:52.733] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:03:57.740] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:04:17.767] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:04:22.780] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:04:27.788] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:04:32.802] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:04:42.826] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:04:47.829] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:04:52.838] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:04:57.846] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:05:02.853] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:05:07.864] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:05:12.878] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:06:23.022] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:06:33.040] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:06:38.046] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:06:43.061] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:06:48.069] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:06:53.080] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:07:13.124] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:07:18.148] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:07:23.144] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:07:48.177] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:08:13.230] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:08:18.240] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:08:28.260] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:08:43.283] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:08:48.296] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:08:58.322] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:09:03.330] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:09:08.345] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:09:13.346] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:09:33.391] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:09:38.407] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:09:43.424] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:09:44.436] [14721] (discord.cpp:701): JS console: ["%c[Spotify]","Devices updated for 31526mfdf3dqll3cwog4d2wzf4de:","[object Object]"]
+[2023-09-22 21:09:48.438] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:09:53.444] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:09:58.455] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:10:03.461] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:10:08.494] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:10:18.543] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:10:23.539] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:10:28.551] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:10:33.568] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:10:38.574] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:10:43.583] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:10:48.595] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:10:53.602] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:10:58.613] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:11:03.620] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:11:08.636] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:11:18.653] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:11:28.663] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:11:33.672] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:11:38.684] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:11:48.696] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:12:33.774] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:12:48.811] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:12:53.822] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:12:58.836] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:13:03.843] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:13:08.850] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:13:13.867] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:13:23.883] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:13:28.890] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:13:43.923] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:13:48.931] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:13:58.947] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:14:03.954] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:14:08.964] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:14:13.976] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:14:29.003] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:14:34.006] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:14:44.031] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:14:54.040] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:14:59.046] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:15:04.052] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:15:09.063] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:15:14.068] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:15:19.077] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:15:24.082] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:15:34.096] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:17:34.276] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:17:44.293] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:17:54.313] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:18:04.333] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:18:11.139] [14721] (discord.cpp:701): JS console: ["%c[Spotify]","Devices updated for 31526mfdf3dqll3cwog4d2wzf4de:","[object Object],[object Object]"]
+[2023-09-22 21:18:14.349] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:18:19.362] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:18:24.366] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:18:59.419] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:19:04.427] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:19:14.447] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:19:19.450] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:20:19.530] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:20:36.503] [14721] (discord.cpp:701): JS console: ["%c[Spotify]","Devices updated for 31526mfdf3dqll3cwog4d2wzf4de:","[object Object]"]
+[2023-09-22 21:20:49.573] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:20:51.258] [14721] (discord.cpp:701): JS console: ["%c[Spotify]","Devices updated for 31526mfdf3dqll3cwog4d2wzf4de:","[object Object]"]
+[2023-09-22 21:20:54.579] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:21:04.592] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:21:09.600] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:21:14.611] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:21:19.620] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:21:24.629] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:21:29.636] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:21:34.643] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:21:39.656] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:21:49.676] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:21:54.682] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:22:49.768] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-22 21:22:53.203] [14721] (discord.cpp:701): JS console: ["%c[GatewaySocket]","Performing an expedited heartbeat reason: network detected offline."]
+[2023-09-23 04:53:05.083] [14721] (discord.cpp:701): JS console: ["%c[RunningGameStore]","games",""]
+[2023-09-23 04:53:05.132] [14721] (discord.cpp:701): JS console: ["%c[GatewaySocket]","Performing an expedited heartbeat reason: power monitor resumed"]

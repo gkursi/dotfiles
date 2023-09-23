@@ -1,0 +1,69 @@
+:root {
+    --main-1: #58AD1F;
+    --main-2: #004F2D;
+    --highlight: #FFFCFF;
+    --bg-1: #0A2342;
+    --bg-2: #1a090d;
+    --default-padding: 10px;
+}
+
+* {
+    color: var(--highlight);
+    border: 1px solid red !important;
+}
+
+body {
+    overflow: hidden;
+    background-color: var(--bg-2);
+}
+
+.box {
+    background-color: var(--main-1);
+    border: 3px solid var(--main-2);
+    border-radius: 5px;
+    padding: 10px;
+    /* margin-left: 5%;
+    margin-right: 5%; */
+}
+
+.container {
+    position: absolute;
+}
+
+.contained {
+    position: relative;
+}
+
+.text {
+    color: var(--highlight);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    font-size: x-large;
+}
+
+.header {
+    width: 90%;
+    font-size: xx-large !important;
+    /* margin-left: 5%; */
+    /* margin-right: 5%; */
+}
+
+.p100 {
+    width: 100%;
+}
+
+.p90 {
+    width: 90%;
+}
+
+.flex {
+    display: flex;
+}
+
+.alignLeft {
+    text-align: left;
+}
+
+.alignRight {
+    text-align: right;
+}

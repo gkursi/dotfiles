@@ -1,0 +1,14 @@
+2023-09-22 18:11:40.305 [info] Extension host with pid 38999 started
+2023-09-22 18:11:40.305 [info] Skipping acquiring lock for /home/qweru/.config/Code - OSS/User/workspaceStorage/3ccbb6044b5565b71f696167dad8c05c.
+2023-09-22 18:11:40.563 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-09-22 18:11:40.572 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:scss'
+2023-09-22 18:11:40.899 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-09-22 18:11:40.904 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-09-22 18:11:40.921 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-09-22 18:11:40.954 [info] Eager extensions activated
+2023-09-22 18:11:40.999 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-09-22 18:11:41.001 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-09-22 18:11:41.005 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2023-09-22 18:11:41.011 [info] ExtensionService#_doActivateExtension sainnhe.everforest, startup: false, activationEvent: 'onStartupFinished'
+2023-09-22 18:13:45.343 [info] Extension host terminating: renderer closed the MessagePort
+2023-09-22 18:13:45.355 [info] Extension host with pid 38999 exiting with code 0
