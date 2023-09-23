@@ -1,8 +1,0 @@
-2023/09/22-19:15:30.811 3914 Reusing MANIFEST /home/qweru/.config/discordcanary/Local Storage/leveldb/MANIFEST-000001
-2023/09/22-19:15:30.812 3914 Recovering log #4
-2023/09/22-19:15:30.834 3914 Level-0 table #7: started
-2023/09/22-19:15:30.860 3914 Level-0 table #7: 1902342 bytes OK
-2023/09/22-19:15:30.863 3914 Delete type=0 #4
-2023/09/22-20:14:36.586 38e6 Level-0 table #10: started
-2023/09/22-20:14:36.588 38e6 Level-0 table #10: 32105 bytes OK
-2023/09/22-20:14:36.589 38e6 Delete type=0 #8
