@@ -1,9 +1,8 @@
 ## Package list
 - Alacritty
-- Eww (optional)
+- Eww
 - Hyprland
 - Hyprpaper
-- Kitty (optional)
 - Neofetch
 - Rofi
 - Swaylock

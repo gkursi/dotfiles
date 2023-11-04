@@ -1,8 +1,8 @@
 {
     "layer": "top",
-    "margin" : 10,
-    "height": 50,
-    "width": 1860, 
+    "margin" : 7,
+    "height": 35,
+    "width": 1900, 
     "spacing": 10, 
     "modules-left": ["hyprland/workspaces", "custom/spotify"],
     "modules-center": ["hyprland/window"],
