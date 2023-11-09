@@ -1,2 +1,2 @@
 # dotfiles
-My arch linux backup
+The dotfiles i use
